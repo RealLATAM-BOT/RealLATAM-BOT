@@ -1,0 +1,38 @@
+{
+  "name": "RealLATAM-Bot",
+  "website": "https://github.com/RealLATAM-BOT",
+  "description": "Sigueme en instagram como @SoyYosser",
+  "repository": "https://github.com/RealLATAM-BOT/RealLATAM-BOT",
+  "logo": "https://raw.githubusercontent.com/RealLATAM-BOT/RealLATAM-BOT/main/src/pictures/heroku-icon.jpg",
+  "success_url": "https://github.com/RealLATAM-BOT/RealLATAM-BOT",
+  "keywords": [
+    "nodejs",
+    "heroku",
+    "bot",
+    "bots",
+    "bot",
+    "spanish",
+    "whatsapp",
+    "termux",
+    "shadow",
+    "multi-device",
+    "md",
+    "whatsappbot",
+    "oficial",
+    "whatsapp-md",
+    "themysticbot",
+    "themystic-bot",
+    "themystic-bot-md"],
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/bogini/heroku-buildpack-graphicsmagick"
+    }    
+ ]
+}
